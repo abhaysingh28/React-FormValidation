@@ -5,7 +5,7 @@ const App = () => {
   const [data, setdata] = useState({
     name: "",
     email: "",
-    password: "",
+    password: "", 
   });
   const [formError, setformError] = useState({});
   const [isSubmitted, setisSubmitted] = useState(false);
