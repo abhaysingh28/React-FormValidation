@@ -42,7 +42,7 @@ const App = () => {
       errors.password = "Password must be 6 characters"
     }
     return errors;
-    
+     
   }
   return (
     <>
