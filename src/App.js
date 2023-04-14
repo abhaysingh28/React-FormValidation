@@ -9,7 +9,7 @@ const App = () => {
   });
   const [formError, setformError] = useState({});
   const [isSubmitted, setisSubmitted] = useState(false);
-  const changehandler = (e)=>{
+  const changehandler = (e)=>{ 
     setdata({...data, [e.target.id]: e.target.value})
   }
   const formhandler = (e)=>{
